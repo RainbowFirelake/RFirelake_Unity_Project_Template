@@ -7,13 +7,6 @@
       "dependencies": {},
       "hash": "a7c6b49a0141a5bff9b1983e38137522ef61977d"
     },
-    "com.gustavopsantos.reflex": {
-      "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.0",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "224d2a1d1716b26f8eddf2e0d4a5c47d50d7a75c"
-    },
     "com.unity.addressables": {
       "version": "2.5.0",
       "depth": 0,
@@ -250,6 +243,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.hadashikick.vcontainer": {
+      "version": "1.16.9",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
