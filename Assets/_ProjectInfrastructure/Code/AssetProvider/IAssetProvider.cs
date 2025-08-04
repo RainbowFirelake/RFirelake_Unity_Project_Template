@@ -30,6 +30,8 @@ namespace RFirelake.Infrastructure.AssetProvider
             _logger = logger;
         }
 
+        ~AddressableAssetProvider() => ReleaseAll();
+
         public async UniTask<TAsset> Load<TAsset>(object key) where TAsset : class
         {
             if (!assetRequests.TryGetValue(key, out AsyncOperationHandle handle))

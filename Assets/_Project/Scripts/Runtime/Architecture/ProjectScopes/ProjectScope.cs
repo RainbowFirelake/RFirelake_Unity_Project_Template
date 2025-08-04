@@ -1,4 +1,5 @@
 using RFirelake.Infrastructure.AssetProvider;
+using RFirelake.Infrastructure.Factories;
 using RFirelake.Infrastructure.Logs;
 using VContainer;
 using VContainer.Unity;
@@ -17,6 +18,7 @@ namespace RFirelake.Architecture
                 .WithParameter<ILoggerConfiguration>(_loggerConfiguration);
 
             builder.Register<IAssetProvider, AddressableAssetProvider>(Lifetime.Transient);
+            builder.Register<GameObjectFactory>(Lifetime.Singleton);
         }
     }
 }
