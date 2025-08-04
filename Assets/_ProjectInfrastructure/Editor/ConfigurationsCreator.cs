@@ -6,7 +6,7 @@ namespace RFirelake.Editor
 {
     public class ConfigurationsCreator
     {
-        private const string ConfigurationPath = "Assets/_Template/Configurations/";
+        private const string ConfigurationPath = "Assets/_ProjectInfrastructure/Configurations/";
 
         [MenuItem("RFirelakeTemplate/Create Configuration Objects")]
         private static void CreateConfigurationObjects()
